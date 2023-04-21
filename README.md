@@ -6,4 +6,4 @@ Short for "mv mover" - a short script you can use to move a file to a directory,
 
 **Note:** Unlike mv, mvmver will fail if the second argument isn't a directory; you can't use it to rename a file.
 
-Mvmver is easiest to use if you alias it in your bashrc, e.g. `alias mvmver='/parent-directories/mvmver.sh'`. Otherwise, you'll have to type the whole path to the script when you use it, which is more effort than a regular `mv` then `cd` would be.
+mvmver is easiest to use if you alias it in your bashrc, e.g. `alias mvmver='/parent-directories/mvmver.sh'`. Otherwise, you'll have to type the whole path to the script when you use it, which is more effort than a regular `mv` then `cd` would be.
