@@ -1,2 +1,3 @@
 #! /usr/bin/env bash
-mv "$1" "$2"/ && cd "$2"/
+#first paramater is all arguments except the last one. Second variable is only the last argument.
+mv  "${@:1:$#-1}" "${@: -1}"/ && cd "${@: -1}"/
